@@ -1,0 +1,17 @@
+name: eeg-bci-pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - mne
